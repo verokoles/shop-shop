@@ -1,7 +1,21 @@
 {
-  "name": "mern-shopping",
+  "name": "mern-shopping1",
   "version": "1.0.0",
   "description": "",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "graphql": "^14.6.0",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.1"
+  },
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -15,8 +29,5 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  },
-  "dependencies": {
-    "yarn": "^1.22.19"
   }
 }
